@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\calic\Documents\GitHub\Java\Snake\.metadata\.plugins\org.eclipse.jdt.core
+1572992428.index
+1129661716.index
