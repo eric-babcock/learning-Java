@@ -1,0 +1,20 @@
+package usefulStringMethods;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// String = a reference data type that can store one or more characters 
+		//          reference data types have access to useful methods
+		
+		String name = "Eric";
+		
+		//boolean result = name.equals("eric");
+		//boolean result = name.equalsIgnoreCase("eric");
+		//int result = name.length();
+		char result = name.charAt(0);
+		
+		
+		System.out.println(result);
+	}
+
+}
