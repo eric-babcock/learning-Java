@@ -137,3 +137,309 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
 !SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-05 18:02:22.216
 !MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+!SESSION 2023-01-06 11:10:28.558 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/calic/Documents/GitHub/Java/Snake/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-01-06 11:10:41.413
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-06 11:10:41.413
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42edde25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fe5da76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-06 11:10:54.513
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\calic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2023-01-06 11:11:39.927
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:11:39.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:11:39.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:11:39.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:11:39.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:11:39.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-01-06 11:12:05.032
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.032
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-01-06 11:12:05.099
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.099
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:12:05.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:12:05.099
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2023-01-06 11:12:39.746
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2023-01-06 11:12:40.634
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.jcajce.JcaPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:134)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:150)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:90)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:494)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:481)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1142)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:782)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:770)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-01-06 11:13:55.545 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/calic/Documents/GitHub/Java/Snake/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-01-06 11:14:02.567
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-06 11:14:02.567
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@105ffc58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68454ed5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-06 11:14:15.908
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\calic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:19.268
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:19.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:19.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:19.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:19.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:19.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-01-06 11:15:46.939
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:46.939
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.939
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.939
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:46.939
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.939
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:46.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:46.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:46.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:46.940
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-01-06 11:15:47.032
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:47.032
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE Software being installed: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE Software currently installed: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:47.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; a.jre.javase 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:47.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE From: JustJ OpenJDK Hotspot JRE Complete 16.0.2.v20210721-1149 (org.eclipse.justj.openjdk.hotspot.jre.full.feature.group 16.0.2.v20210721-1149)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.justj.openjdk.hotspot.jre.full [16.0.2.v20210721-1149,16.0.2.v20210721-1149]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:47.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE From: M2E Maven POM File Editor using Wild Web Developer, Lemminx and Maven LS extension (requires Incubating components) 2.0.1.20221120-2121 (org.eclipse.m2e.editor.lemminx 2.0.1.20221120-2121)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-01-06 11:15:47.032
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE From: M2E - POM Editor using LemMinX language server (includes Incubating components) 2.0.2.20221130-2134 (org.eclipse.m2e.lemminx.feature.feature.group 2.0.2.20221130-2134)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-01-06 11:15:47.032
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.editor.lemminx [2.0.1.20221120-2121,2.0.1.20221120-2121]
