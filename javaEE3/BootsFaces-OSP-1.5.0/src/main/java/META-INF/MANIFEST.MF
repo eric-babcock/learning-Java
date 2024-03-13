@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: BootsFaces OSP Gradle builder.
+Gradle-Version: 6.5.1
+Created-By: 11.0.8 (Eclipse OpenJ9 openj9-0.21.0)
+Bundle-Name: BootsFaces
+Bundle-Version: 1.5.0
+Bundle-Date: 20200809-20:02:49
+Implementation-Title: BootsFaces
+Implementation-Version: 1.5.0
+Implementation-Vendor: TheCoder4.eu
+Implementation-Vendor-Id: eu.thecoder4
+Implementation-URL: https://www.bootsfaces.net
+

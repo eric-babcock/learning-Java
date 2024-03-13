@@ -1,0 +1,9 @@
+charlie/entity/PollEntity_.java
+charlie/entity/ParticipantQuestionAnswerEntity_.java
+charlie/entity/UserEntity_.java
+charlie/entity/AbstractEntity_.java
+charlie/entity/QuestionAnswerChoiceEntity_.java
+charlie/entity/ParticipantListEntity_.java
+charlie/entity/PollOwnerEntity_.java
+charlie/entity/PollQuestionEntity_.java
+charlie/entity/PollParticipantEntity_.java

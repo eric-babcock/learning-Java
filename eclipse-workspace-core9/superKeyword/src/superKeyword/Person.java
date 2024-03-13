@@ -15,5 +15,5 @@ public class Person {
 	public String toString() {
 		return this.name + "\n" + this.age + "\n";
 	}
-
+	System.out.println(Person.name);
 }

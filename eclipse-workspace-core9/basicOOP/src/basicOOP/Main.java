@@ -14,8 +14,8 @@ public class Main {
 		System.out.println(myCar1.model);
 		System.out.println(myCar1.make);
 		
-		//myCar.drive();
-		//myCar.brake();
+		myCar1.drive();
+		myCar1.brake();
 		
 		System.out.println(myCar2.color);
 

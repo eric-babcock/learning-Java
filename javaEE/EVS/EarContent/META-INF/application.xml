@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
+  <display-name>EVS</display-name>
+  <module>
+    <ejb>EVSEJB.jar</ejb>
+  </module>
+  <module>
+    <connector>EVSConnector.rar</connector>
+  </module>
+  <module>
+    <web>
+      <web-uri>EVSWeb.war</web-uri>
+      <context-root>EVSWeb</context-root>
+    </web>
+  </module>
+  <module>
+    <java>EVSClient.jar</java>
+  </module>
+</application>

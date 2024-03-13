@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: Markus
+Build-Jdk: 1.8.0_40
+Specification-Title: highfaces
+Specification-Version: 1.3
+Specification-Vendor: Bauer-Live Softwaredevelopment
+Implementation-Title: highfaces
+Implementation-Version: 1.3
+Implementation-Vendor-Id: org.highfaces
+Implementation-Vendor: Bauer-Live Softwaredevelopment
+Bundle-Description: Sonatype helps open source projects to set up Mave
+ n repositories on https://oss.sonatype.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.highfaces
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1544022668859
+Bundle-DocURL: http://www.bauer-live.de
+Bundle-Vendor: Bauer-Live Softwaredevelopment
+Import-Package: com.sun.faces.facelets.tag;version="[2.2,3)";resolutio
+ n:=optional,javax.el,javax.faces.application;version="[2.2,3)",javax.
+ faces.bean;version="[2.2,3)",javax.faces.component;version="[2.2,3)",
+ javax.faces.component.behavior;version="[2.2,3)",javax.faces.context;
+ version="[2.2,3)",javax.faces.event;version="[2.2,3)",javax.faces.ren
+ der;version="[2.2,3)",javax.faces.view.facelets;version="[2.2,3)",org
+ .json;resolution:=optional
+Tool: Bnd-1.43.0
+Export-Package: org.highfaces.component.api;version="1.3",org.highface
+ s.component.chartresetzoombutton;uses:="javax.faces.component";versio
+ n="1.3",org.highfaces.component.treemaplevel;uses:="javax.faces.compo
+ nent";version="1.3",org.highfaces.component.heatmap;uses:="javax.el,j
+ avax.faces.context,javax.faces.component,javax.faces.component.behavi
+ or,org.highfaces.component.treemaplevel,javax.faces.render,org.highfa
+ ces.component.treemapserie,org.highfaces.util,org.highfaces.component
+ .charttooltip,org.json,javax.faces.application,javax.faces.event";ver
+ sion="1.3",org.highfaces.component.chartlegend;uses:="javax.faces.com
+ ponent";version="1.3",org.highfaces.component.chartserie;uses:="org.h
+ ighfaces.component.api,javax.el,javax.faces.context,javax.faces.compo
+ nent";version="1.3",org.highfaces.component.treemapserie;uses:="org.h
+ ighfaces.component.treemaplevel,javax.el,javax.faces.context,javax.fa
+ ces.component";version="1.3",org.highfaces.util;uses:="javax.faces.be
+ an,javax.faces.application,org.json,javax.faces.context,javax.faces.c
+ omponent";version="1.3",org.highfaces.component.chartaxis;uses:="java
+ x.faces.component";version="1.3",org.highfaces.component.charttooltip
+ ;uses:="javax.faces.component";version="1.3",org.highfaces.component.
+ chart;uses:="javax.el,javax.faces.context,javax.faces.component,javax
+ .faces.component.behavior,javax.faces.view.facelets,com.sun.faces.fac
+ elets.tag,javax.faces.event,org.highfaces.component.api,org.highfaces
+ .component.chartresetzoombutton,org.highfaces.component.chartlegend,o
+ rg.highfaces.component.chartserie,javax.faces.render,org.highfaces.ut
+ il,org.highfaces.component.chartaxis,org.highfaces.component.charttoo
+ ltip,org.json,javax.faces.application,org.highfaces.component.api.imp
+ l";version="1.3",org.highfaces.component.api.impl;uses:="org.highface
+ s.component.api";version="1.3"
+Bundle-Version: 1.3.0
+Bundle-Name: highfaces
+
